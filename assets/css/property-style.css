@@ -1,0 +1,367 @@
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 900px;
+  margin:0 auto;
+  position: relative;
+}
+ 
+.tabs label {
+  order: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem;
+  margin-right: 0.2rem;
+  cursor: pointer;
+  background-color:#EDF2F7;
+  font-weight: bold;
+  transition: background ease 0.3s;
+}
+ 
+.tabs .tab {
+  order: 9;
+  width: 85.6%;
+  height: 100%;
+  display: none;
+  background: #fff;
+ /* padding:10px 5px;*/
+  border: 2px solid #E9E9E9;
+  border-bottom-right-radius:10px;
+  border-bottom-left-radius:10px;
+  margin-top: 12px;
+
+}
+ 
+.tabs input[type="radio"] {
+  display: none;
+}
+ 
+.tabs input[type="radio"]:checked + label {
+  background: #fff;
+}
+ 
+.tabs input[type="radio"]:checked + label + .tab {
+  display: block;
+}
+ 
+@media (max-width: 465px) {
+  .tabs .tab,
+  .tabs label {
+   order: initial;
+  }
+ 
+  .tabs label {
+    width: 100%;
+    margin-left: 50px;
+  }
+}
+
+/*== Ab property*/
+
+.property-container{
+width:100%;
+height:auto;
+margin:0 auto;
+position: relative;
+float: left;
+}
+  
+.ab_asste{
+width: 320px;
+margin: 0 auto;
+position: relative;
+top: 140px;
+/*border: 1px solid #000;*/
+} 
+
+.ab_asste span {
+  font-size: 19px;
+  font-weight: 500;
+  margin-left: 5px;
+  font-weight: 600;
+}
+
+.textfield {
+  width: 100%;
+  padding: 13px;
+  margin:4px;
+  box-sizing: border-box;
+  padding-left:10px;
+  font-size: 19px;
+ }
+
+.asste_col{
+   width:300px;
+   height:auto;
+   margin: 0 auto;
+   position: relative;
+   top: 60px;
+   border: 1px solid rgb(217 217 217);
+   border-radius:5px;
+   padding: 10px;
+   box-shadow: -1px 0px 5px 4px rgb(217 217 217);
+    background-color:#fff;
+}
+
+.asste_col h3{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.asste_col .ass_result{
+   font-size: 20px;
+  font-weight: 600;
+  text-align: center;       
+  width: auto;
+
+} 
+.bctax_rate{
+    font-size: 20px;
+  font-weight: 600;
+  text-align: center;       
+  width: auto;
+}
+
+.pro_color{
+background-color:#F7F7F8;
+min-height: 500px;  
+}
+
+.roi-container-2{
+width:74%;
+height:auto;
+margin:0 auto;
+position: relative;
+padding: 10px 0px;  
+}
+
+.roi-col-1,
+.roi-col-2{
+width:50%;
+float:left;
+}
+
+.extiresult{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+.prorate{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+.tax_rate{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+
+
+/*====British Colmbia*/
+
+
+.extiresult{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+.bctax_rate{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+.bceff_pro{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+
+
+.bceff_rate{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+
+.bceasff_pro{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+
+.bceasff_rate{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+
+
+
+/* ========== 
+  
+  Monitoba
+
+========*/
+
+.moresult{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+.motax_rate{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+.moff_pro{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+
+.moff_rate{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+
+.moasff_pro{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+
+.moasff_rate{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+
+
+/*=========== Ontario ==========*/
+
+.otresult{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+.ottax_rate{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+
+.otasff_pro{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+
+.otasff_rate{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+
+/* ========== Quebec Property =============== */
+
+
+.qpresult {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    width: auto;
+}
+
+.qptax_rate {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    width: auto;
+}
+.pqasff_pro {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    width: auto;
+}
+
+.pqasff_rate {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    width: auto;
+}
+
+/* ========== Saskatchewan Property Tax =============== */
+
+
+.saresult{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+.satax_rate{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+
+.assff_pro{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+
+.assff_rate{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+
+/* ========== Atlantic Canada Property =============== */
+
+.at_result{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+.attax_rate{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  width: auto;
+}
+.textsms{
+  font-size:20px; 
+  font-weight:600px; 
+  margin-left:10px;
+  margin-top: 10px;
+}
